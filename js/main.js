@@ -240,6 +240,7 @@ function mainFunc(a, b, func) {
 function cbRandom(a, b) {
   return Math.ceil(Math.random(0, 1) * (a - b) + b);
 }
+
 function cbPow(a, b) {
   return Math.pow(a, b);
 }
